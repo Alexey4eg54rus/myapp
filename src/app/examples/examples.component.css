@@ -1,0 +1,36 @@
+p {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 80%;
+    height: 600px;
+    margin-top: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.main_table {
+    margin: 0 auto;
+}
+
+.card {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.card_image {
+    width: 100%;
+    height: 250px;
+    object-fit: scale-down;
+}
+
+.card_link {
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+}

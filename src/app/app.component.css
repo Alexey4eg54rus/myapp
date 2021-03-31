@@ -1,0 +1,16 @@
+header {
+    width: 100%;
+    height: 350px;
+    background: no-repeat left/cover url('https://3.downloader.disk.yandex.ru/preview/2d61b61bf56c8bf2261b9911216467593bbe2e7d1bcee46afb2b82796462a872/inf/e6N5xz8j-DCI3fmuVgngVRWrNKE_7_PoqRhtdqojqU-pns8jVShvAz4ZAdgq-WHKpcmIHyP5nMudTh4tzh56DQ%3D%3D?uid=236959032&filename=header.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=236959032&tknv=v2&size=1903x937');
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    text-align: left;
+    margin: 10%;
+    font-size: 80px;
+    color: #1D84DE;
+    text-shadow: rgb(47, 54, 150) 0 0 .2em;
+    font-style: italic;
+}

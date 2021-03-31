@@ -1,0 +1,57 @@
+<p>Hobbies</p>
+<ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[0]" class="slider_image">
+        </div>
+        <div class="carousel-caption">
+            <h3>Books</h3>
+            <p>I love reading and have a large book collection.</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[1]" class="slider_image">
+        </div>
+        <div class="carousel-caption">
+            <h3>IT</h3>
+            <p>I am always tryes be aware in actual IT's subjects.</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[2]" class="slider_image">
+        </div>
+        <div class="carousel-caption">
+            <h3>Cinema</h3>
+            <p>In my opinion cinema is the best kind of art.</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[3]" class="slider_image">
+        </div>
+        <div class="carousel-caption">
+            <h3>Martial arts</h3>
+            <p>I'm practices martial arts from 13 years old.</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[4]" class="slider_image">
+        </div>
+        <div class="carousel-caption">
+            <h3>Mobile photography</h3>
+            <p>Smartphone is always helps me to save and share something gorgeous.</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[5]" class="slider_image">
+        </div>
+        <div class="carousel-caption">
+            <h3>Gadgets</h3>
+            <p>Untaken part of modern life.</p>
+        </div>
+    </ng-template>
+</ngb-carousel>
